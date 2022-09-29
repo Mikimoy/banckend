@@ -1,0 +1,15 @@
+GET http://localhost:5000/product
+
+###
+
+GET http://localhost:5000/product/1
+
+###
+
+POST http://localhost:5000/product
+Content-Type: application/json
+{
+    "product": "product 2",
+    "product": "product 2",
+    "product": "product 2",
+}
